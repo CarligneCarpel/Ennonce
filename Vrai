@@ -1,0 +1,41 @@
+from random import randrange
+
+nonb_odinate = randrange(0,1000)          
+
+eseye = 0
+
+chans = 5
+
+print(nonb_odinate)
+
+
+
+while (eseye!= chans) :
+
+    nonb_chwazi = int(input( "chwazi yon nonb :"))
+
+    chans = chans - 1
+
+    if nonb_odinate ==nonb_chwazi :
+
+        print("bravo")
+
+        break
+
+    if eseye==chans :
+
+        print("ou pa gen chans anko")
+
+    if nonb_odinate < nonb_chwazi :
+
+        print("ou cwazi yon nonb ki two gwo")
+
+    if nonb_odinate > nonb_chwazi :
+
+        print("ou chwazi yon nonb ki two piti")
+
+        
+
+        
+
+    
